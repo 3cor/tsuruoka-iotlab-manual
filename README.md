@@ -31,10 +31,6 @@ I am truly grateful.
 Good luck on your research and enjoy your time in Tsuruoka.
 Best wishes.
 
-Nitis Monburinon
-Thai-Nichi Institute of Technology
-boonitis@gmail.com
-
 # Things I wish I mastered
 	 
 If by any chance, you become responsible for every project in the lab like me. These are your best friends.
@@ -261,7 +257,7 @@ Then in 2018 redesigned and continued by Nitis Monburinon and Natthasak Vejprasi
 Many parts of the system were changed during the course of two years of development. So this manual will mainly consist of 2018 version related information. The 2017 version manual is not relevant anymore as the current 2018 version is fundamentally different at almost everything. Some major differences are described below.
 
 Element | 2017 Kakashi | 2018 Kakashi
-- | - | -
+------- | ------------- | -----------
 Client Device | Raspberry Pi | Raspberry Pi
 Client OS | Raspbian | Android Things
 Client programming language | Python | Java

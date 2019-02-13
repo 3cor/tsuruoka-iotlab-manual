@@ -1,6 +1,48 @@
 # Research Student Manual
 For research students at Professor Zabir Laboratory.
 
+# Table of Contents
+
+   * [Research Student Manual](#research-student-manual)
+      * [Introduction](#introduction)
+   * [Things I wish I mastered](#things-i-wish-i-mastered)
+      * [Git and GitHub](#git-and-github)
+      * [Android Studio](#android-studio)
+      * [Linux](#linux)
+      * [Machine Learning](#machine-learning)
+      * [Edge Computing](#edge-computing)
+      * [Python](#python)
+      * [Java](#java)
+   * [Gomi Tatsujin - User’s app](#gomi-tatsujin---users-app)
+      * [Prerequisite](#prerequisite)
+      * [Setup](#setup)
+      * [Demonstration Guide](#demonstration-guide)
+         * [Calendar](#calendar)
+         * [Garbage Classification Guide](#garbage-classification-guide)
+         * [Garbage Stations](#garbage-stations)
+   * [Gomi Tatsujin - Collector’s App](#gomi-tatsujin---collectors-app)
+      * [Prerequisite](#prerequisite-1)
+      * [Setup](#setup-1)
+      * [Demonstration Guide](#demonstration-guide-1)
+   * [IOT Kakashi](#iot-kakashi)
+      * [Prerequisite](#prerequisite-2)
+      * [Setup](#setup-2)
+         * [Client](#client)
+         * [Server](#server)
+         * [Training Environment](#training-environment)
+         * [Demonstration Guide](#demonstration-guide-2)
+   * [FindMe](#findme)
+      * [Prerequisite](#prerequisite-3)
+      * [Setup](#setup-3)
+         * [Raspberry Pi](#raspberry-pi)
+      * [Demonstration Guide](#demonstration-guide-3)
+   * [Smart Power Tap](#smart-power-tap)
+      * [Prerequisite](#prerequisite-4)
+      * [Demonstration Guide](#demonstration-guide-4)
+   * [Other responsibilities](#other-responsibilities)
+      * [Filling a form monthly](#filling-a-form-monthly)
+      * [Disposing of garbage](#disposing-of-garbage)
+
 ## Introduction
 	
 Hello, my fellow students.
@@ -13,11 +55,11 @@ Some of the projects are continuation of our predecessors' works. Well, it is li
 
 Within this manual you can find:
 
-- Background, inspiration, and objective of each project to give you some direction in your own development.
-- Step by step guides to help you set up every project devices, environment, and application.
-- Instructions on how to demonstrate the projects to guests and visitors.
-- GitHub repos for most projects.
-- Some other information that you might find useful regarding working in the lab.
+* Background, inspiration, and objective of each project to give you some direction in your own development.
+* Step by step guides to help you set up every project devices, environment, and application.
+* Instructions on how to demonstrate the projects to guests and visitors.
+* GitHub repos for most projects.
+* Some other information that you might find useful regarding working in the lab.
 
 It is recommended to the read background/objective of the project first as it helps you understand why a particular project is conceived in the first place. 
 
@@ -137,11 +179,11 @@ The aim is to develop a simple and intuitive mobile application to assist locals
 ## Prerequisite
 
 Intermediate computer programming knowledge is mandatory. Others than that knowing and having these kinds of stuff should make your life easier.
-- Mobile application development.
-- Intermediate Java or Kotlin for Android development. (The code base is currently all written with Java though).
-- Basic PHP for web services that mostly relate to MySQL database connection.
-- Basic knowledge of computer network and information technology.
-- Basic knowledge of MySQL database management.
+* Mobile application development.
+* Intermediate Java or Kotlin for Android development. (The code base is currently all written with Java though).
+* Basic PHP for web services that mostly relate to MySQL database connection.
+* Basic knowledge of computer network and information technology.
+* Basic knowledge of MySQL database management.
 
 ## Setup
 
@@ -151,7 +193,7 @@ Unless unexpected problems occur, the setup process for this project is pretty s
 
 2. 	Clone this GitHub repository using a command
 		
-			git clone https://github.com/boonitis/gomi-application.git
+		git clone https://github.com/boonitis/gomi-application.git
     
     Or any other Git clients you prefer.
 
@@ -200,11 +242,11 @@ The app is currently available only on the Android platform. It utilizes Google 
 
 Intermediate computer programming knowledge is mandatory. Others than that knowing and having these stuff should make your life easier.
 
-- Mobile application development.
-- Intermediate Java or Kotlin for Android development. (The code base is currently all written with Java though).
-- Basic PHP for web services that mostly relate to MySQL database connection.
-- Basic knowledge of computer network and information technology.
-- Basic knowledge of MySQL database management.
+* Mobile application development.
+* Intermediate Java or Kotlin for Android development. (The code base is currently all written with Java though).
+* Basic PHP for web services that mostly relate to MySQL database connection.
+* Basic knowledge of computer network and information technology.
+* Basic knowledge of MySQL database management.
 
 ## Setup
 
@@ -269,23 +311,23 @@ Recognition process occurs | Externally | Locally
 
 Intermediate computer programming knowledge is mandatory. Others than that knowing the following subjects are highly recommended.
 
-- Android application development, Android Thing to be specific but it’s very similar anyway.
-- Prior experience working with microcontrollers such as Arduino and Raspberry Pi. As well as common sensor modules.
-- Fundamental knowledge of electronic engineering.
-- Internet of Things concept in general.
-- Computer vision and image processing concept.
-- Intermediate machine learning, both theory, and application is recommended. The main subject includes image data preparation, image classification, convolutional neural network, and TensorFlow.
-- PHP for server-side scripting.
-- Python and Tensorflow for training the recognition engine and data preparation.
+* Android application development, Android Thing to be specific but it’s very similar anyway.
+* Prior experience working with microcontrollers such as Arduino and Raspberry Pi. As well as common sensor modules.
+* Fundamental knowledge of electronic engineering.
+* Internet of Things concept in general.
+* Computer vision and image processing concept.
+* Intermediate machine learning, both theory, and application is recommended. The main subject includes image data preparation, image classification, convolutional neural network, and TensorFlow.
+* PHP for server-side scripting.
+* Python and Tensorflow for training the recognition engine and data preparation.
 
 The following electronic components are essential. You can find most of them scattered around the lab. If any of them is missing, you need to ask our supervisor to buy a new one or come up with alternative yourself.
 
-- A working, not broken, Raspberry Pi. Also, its power supply adapter.
-- A micro sd card for installing OS.
-- A reliable PIR Sensor module. (This require some testing at first)
-- A Raspberry PI camera module and its flex cable for the serial interface. (Sadly, they are not always together)
-- At least 6 male-to-female jumper cables.
-- A breadboard, a small circuit board for prototyping. 
+* A working, not broken, Raspberry Pi. Also, its power supply adapter.
+* A micro sd card for installing OS.
+* A reliable PIR Sensor module. (This require some testing at first)
+* A Raspberry PI camera module and its flex cable for the serial interface. (Sadly, they are not always together)
+* At least 6 male-to-female jumper cables.
+* A breadboard, a small circuit board for prototyping. 
 
 ## Setup
 
@@ -401,9 +443,9 @@ Intermediate computer programming knowledge is mandatory. Others than that knowi
 * Internet of Things concept in general.
 
 The following electronic components are essential. You can find most of them scattered around the lab. If any of them is missing, you need to ask our supervisor to buy a new one or come up with alternative yourself.
-- A working, not broken, Raspberry Pi. Also, its power supply adapter.
-- A micro sd card for installing OS.
-- An E-Ink display. 
+* A working, not broken, Raspberry Pi. Also, its power supply adapter.
+* A micro sd card for installing OS.
+* An E-Ink display. 
 
 ## Setup
 
@@ -475,8 +517,32 @@ The purpose of this section is to pass on my knowledge regarding these responsib
 
 ## Filling a form monthly
 	
-This is sort of a form that every laboratory required to fill monthly. It is all in Japanese but it’s not that complex. You write the date on the top left. The lab name below. Then, following the example, fill all the box with circles (O). Done.
+This is sort of a form that every laboratory required to fill monthly. It is all in Japanese but it’s not that complex. You write the date on the top left. The lab name below. Then, following the example, fill all the box with circles (O) and hyphen (-). Done.
+
+![Filled form](images/filled-form.jpg)
 
 ## Disposing of garbage
 
-There are some trash cans in the lab. When any of it is full you can ask your tutor to help you throw it away and replace it. Got to keep the working environment clean for yourself and others, right?
+There are some trash cans in the lab. When any of it is full you can ask your tutor to help you throw it away and replace it. 
+
+Last time I organized the lab, I put trash bags in this locker with a little post-it note.
+
+![Trash bags locker](images/trash-locker.jpg)
+
+Garbage classification in the lab use different system from normal garbage classification.
+
+Brown bags is for burnable garbage only.
+The rest goes into plastic bags.
+
+![Brown bags](images/brown-trash-bag.jpg)
+
+There are three different trash cans in our lab.
+1. Burnable waste.
+2. PET bottles (Remove caps and labels). 
+3. Incombustible. (Plastic bottle caps and labels go here).
+
+![Lab trash cans](images/3-cans.jpg)
+
+Laborartory garbage have to be put in a specific place in the kosen. You cannot dispose it outside the kosen. For that you have to follow Tsuruoka City Garbage Classification Guide issued by the city hall.
+
+Got to keep the working environment clean for yourself and others, right?

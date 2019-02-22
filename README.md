@@ -75,27 +75,29 @@ Best wishes.
 
 # Things I wish I mastered
 	 
-If by any chance, you become responsible for every project in the lab like me. These are your best friends.
+If by any chance, you become responsible for every project in the lab like me. (It was indeed the best thing! I learned a lot from taking of all the stuff) The following are your best friends.
 
 ## Git and GitHub
 	
-Git technology and GitHub is by far the best thing that was developed for humanity (Or every programmer). 
+[Git](https://git-scm.com/) technology and [GitHub](https://github.com/) is by far the best thing that was developed for humanity (Or every programmer). 
 
 If you are not comfortable using Git by the time you graduate and have to work in industries, you will probably have trouble collaborating with your colleagues and working in general. 
 
 Most of the projects in this manual are required and available on GitHub too. All the more to have a GitHub account, don’t you think so?
 
-According to the internet, 
+According to the [internet](https://git-scm.com/), 
 
 >Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git is easy to learn and has a tiny footprint with lightning fast performance. 
     
-Also according to the internet, 
+Also according to the [internet](https://www.wikiwand.com/en/GitHub), 
 
 >GitHub Inc. is a web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features.
 
-I use Git and GitHub extensively during my time here at the lab. As I am responsible for working on several projects at the same time, I find myself constantly developing different projects that have their own extensive code bases. Without good means of managing all that, I am doomed.  
+I use Git and GitHub extensively during my time here at the lab. Source version control like Git helps me maintain organized projects with clean development trees. I can create another branch to develop experimental feature. If that feature turns out to be messy, it won't affect my main, perfectly working fine, branch of development.
 
-Source version control like Git helps me maintain organized projects with clean development trees. GitHub ensures that I always have several back-ups all the time. I can’t how many time I messed up the source code and have to roll back to the previous version. Collaborating with others without messing up all the code is also a  blessing. 
+As I am responsible for working on several projects at the same time, I find myself constantly shifting my attention on those projects, with their own extensive code bases, all the time. GitHub helps me keep track of my progress on every project. Each repository commit has some description that remind me what have I done and what should I do next for the project. 
+
+Moreover, GitHub ensures that I always have several back-ups all the time. I can’t count how many time I messed up the source code and have to roll back to the previous commit (version). Having good source version control also allow me to collaborate with others without messing up all the code.
 	
 Learn them. Use them a lot. And master them. Believe me, they are truly the programmer’s holy grail.
 
@@ -104,14 +106,15 @@ Learn them. Use them a lot. And master them. Believe me, they are truly the prog
 	
 Most of the projects in the lab implement Android to some extent. Thus, it’s no brainer to have Android Studio installed on your working computer if you are maintaining the projects. 
 
-You can get the latest version of Android Studio from the official website. Or if you use Linux, you can install it via a package manager. Alternatively, you can also use Eclipse or IntelliJ. 
+You can get the latest version of Android Studio from the [official website](https://developer.android.com/studio/). Or if you use Linux, you can install it via a package manager. Alternatively, you can also use Eclipse or IntelliJ. 
 
 Personally, I think Android Studio is the best IDE for Android development so far. However, the best development tool is the one you are comfortable with. Some expert uses Vim and ADB for Android development.
 
 ## Linux
 	
-Many of the projects listed in this manual require more or less experience working with Linux. If you are not comfortable with Linux command, you can learn about it on some of the sites here. Linux is always preferable in most IOT development.
-Internet of Things
+Many of the projects listed in this manual require more or less experience working with Linux. If you are not comfortable with Linux distros or Linux command, you can learn more about it on some of the sites [here](https://github.com/aleksandar-todorovic/awesome-linux). Linux is usually preferable in most IOT development stack. The popular IOT protoyping device Raspberry Pi run Raspbian by default.
+
+## Internet of Things
 	
 According to the internet:
 
@@ -127,9 +130,9 @@ According to the internet:
 > 
 > The process of learning begins with observations or data, such as examples, direct experience, or instruction, in order to look for patterns in data and make better decisions in the future based on the examples that we provide. The primary aim is to allow the computers to learn automatically without human intervention or assistance and adjust actions accordingly.
 
-Machine learning is the foundation of cool many stuff ranging from Google search engine to Deepmind dominant AlphaGO. This has become one of the most beautiful words you put in your CV so far. 
+Machine learning is the foundation of cool many stuff ranging from Google search engine to Deepmind dominant AlphaGO. This has become one of the most beautiful term to put in skill section your CV so far. 
 
-Even if you don't like mathematics nor statistics, learning how to implement a machine learning application with tools is always a good idea.
+Even if you don't like mathematics nor statistics, learning how to implement a machine learning application with tools is always a good idea. You might want to start from [here](https://github.com/josephmisiti/awesome-machine-learning).
 
 ## Edge Computing
 	
@@ -141,7 +144,7 @@ According to the internet:
 > 
 >The role of edge computing to date has mostly been used to ingest, store, filter, and send data to cloud systems. We are at a point in time, however, where edge computing systems are packing more compute, storage, and analytic power to consume and act on the data at the machine location. This capability of edge computing will be more than valuable to industrial organizations—it will be indispensable.
 	
-This one is more important on the academic side of your research. But nonetheless an important part of our lab research. Everything about it is relatively new and you can write a bunch of research papers if you know your way around it.
+Edge computing is sort of more relevant on the academic side of your research. But nonetheless an important part of our lab research. Everything about it is relatively new and you can write a bunch of research papers if you know your way around it. I'm not an expert on the topic myself, but if you are. You will be a gold research student here.
 
 ## Python
 
@@ -150,7 +153,7 @@ According to the internet:
 > 
 > Often, programmers fall in love with Python because of the increased productivity it provides. Since there is no compilation step, the edit-test-debug cycle is incredibly fast. Debugging Python programs is easy: a bug or bad input will never cause a segmentation fault. Instead, when the interpreter discovers an error, it raises an exception. When the program doesn't catch the exception, the interpreter prints a stack trace. A source level debugger allows inspection of local and global variables, evaluation of arbitrary expressions, setting breakpoints, stepping through the code a line at a time, and so on. The debugger is written in Python itself, testifying to Python's introspective power. On the other hand, often the quickest way to debug a program is to add a few print statements to the source: the fast edit-test-debug cycle makes this simple approach very effective.
 
-I use Python extensively in my projects. It is especially useful with the ML and IOT project. Additionally, I also use it for every scripting task ranging from managing files and directories to writing graphs and figures.
+I use Python extensively in my projects. It is especially useful with ML and IOT related projects. Additionally, I also use it for every scripting task ranging from managing files and directories to writing graphs and figures.
 
 ## Java
 
@@ -210,15 +213,27 @@ This is quite unpredictable but Android Studio error messages proved useful in m
 ## Demonstration Guide
 Prior to any demonstration session, it is advisable to create testing accounts via the registration menu first. Each account registration process requires email verification. Noted that this application requires an internet connection to be fully functional. 
 
+![Login](images/gomi-login.png)
+
+![Register](images/gomi-register.png)
+
 There are three main features that can be demonstrated.
 
 ### Calendar
 
 Featuring schedules for garbage collection. With a reminder function that can be set up by users and later notify them of the upcoming garbage collection schedule. Here we use colored trash bag icons to distinguish each garbage type accordingly. There are back and next buttons that users can press to change the calendar month.
 
+![Calendar](images/gomi-calendar.png)
+
 ### Garbage Classification Guide
 
-Featuring a simple and searchable guide for garbage classification. There are two main components here; a search box and garbage types list with names and images. The list will correspond to the search box by displaying relevant garbage types accordingly. Users can press at any garbage image and it will show information regarding how to classify that particular garbage type. 
+Featuring a simple and searchable guide for garbage classification. There are two main components here; a search box and garbage types list with names and images. When user search the list will display relevant garbage types accordingly. 
+
+![Guide](images/gomi-guide.png)
+
+Users can press at any garbage image and it will show information regarding how to classify that particular garbage type. 
+
+![Guide Popup](images/gomi-guide-popup.png)
 
 **Note:** some of the garbage types don not have corresponding images, in this case, only names are shown.
 
@@ -226,9 +241,18 @@ Featuring a simple and searchable guide for garbage classification. There are tw
 
 Featuring a map layout that displays garbage station locations in the area. Each garbage station has its collection status display by colors - green for collected - orange for not collected. These collection statuses correspond to information from the database. 
 
-The collectors have their own apps that can modify each garbage station collection status once it has been collected. This feature provides users with enough information to plan their garbage disposal strategy. 
+![Garbage Stations](images/gomi-map.png)
 
-For example, some user houses are far away from their garbage stations. If they are too late for garbage collection on a particular day, they can check via the app and decide to postpone disposing garbage instead of wasting their time for nothing.
+Users can also change current location use *Change Location* button. Location can be set manually or using GPS.
+
+![Change Location](images/gomi-map-gps.png)
+
+The collectors have their own apps that can modify each garbage station collection status once it has been collected. Users can tap to at the pin to show more information.
+
+![Popup](images/gomi-map-popup.png)
+
+This feature provides users with enough information to plan their garbage disposal strategy. 
+For example, some users' houses are far away from their garbage stations. If they are too late for garbage collection on a particular day, they can check via the app and decide to postpone disposing garbage instead of wasting their time for nothing.
 
 # Gomi Tatsujin - Collector’s App
 
@@ -272,11 +296,17 @@ Consult Google and  Stack Overflow or email boonitis@gmail.com  if things are ou
 
 ## Demonstration Guide
 
+![GitHub Logo](images/collector-01.png)
+
 Prior to any demonstration session, it is advisable to create testing accounts via the registration menu first. 
+
+![GitHub Logo](images/collector-02.png)
 
 Each garbage collector account requires a registration code from the administration database. Noted that this application requires an internet connection to be fully functional. 
 
 Aside from the login and registration activities, the only part garbage collectors will interact with is the main MapActivity. 
+
+![GitHub Logo](images/collector-03.png)
 
 Each garbage stations are represented by map markers with two different color denoted collections status of each garbage station. **Green** - denoted that a particular station has been collected. **Orange** - denoted that a particular station has NOT been collected yet. 
 
@@ -546,3 +576,21 @@ There are three different trash cans in our lab.
 Laborartory garbage have to be put in a specific place in the kosen. You cannot dispose it outside the kosen. For that you have to follow Tsuruoka City Garbage Classification Guide issued by the city hall.
 
 Got to keep the working environment clean for yourself and others, right?
+
+# Collabotators and members of the lab
+
+I thought it might be useful to have a single place that contains information about people in the lab or people that worked here. In case you have inquiry regarding their respective projects. Something that I forget to mention in this manual and you want to ask the original developer yourself. Please remember that they might be busy at time as they have their own stuff to take care of now. Thanks me later :)
+
+## Salim Zabir
+
+## Nitis Monburion
+
+## Juhani
+
+## Joona
+
+## Arnaud
+
+## Zach
+
+## Nathasak Vejprasit

@@ -490,7 +490,7 @@ Firstly, get everything from the previous section from the lab. If any of them a
 
       sudo raspi-config
    
-   Here you need to enable SPI by selecting **Inferfacing Options** => **P4 SPI** then hit **Yes**
+   Here you need to enable SPI by selecting **Inferfacing Options** => **P4 SPI** then hit **Yes** to confirm.
 
 3. Go to $HOME directory, clone the E-ink display API repository using a command.
 

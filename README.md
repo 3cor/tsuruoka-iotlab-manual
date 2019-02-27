@@ -56,12 +56,13 @@ Some of the projects are continuation of our predecessors' works. Well, it is li
 Within this manual you can find:
 
 * Background, inspiration, and objective of each project to give you some direction in your own development.
-* Step by step guides to help you set up every project devices, environment, and application.
+* Step by step guides to help you set up every project device, environment, and application.
 * Instructions on how to demonstrate the projects to guests and visitors.
 * GitHub repos for most projects.
 * Some other information that you might find useful regarding working in the lab.
 
-It is recommended to the read background/objective of the project first as it helps you understand why a particular project is conceived in the first place. 
+It is recommended to read the
+ background/objective of the project first as it helps you understand why a particular project is conceived in the first place. 
 
 But if you, for example, have to demonstrate the projects to the guests tomorrow and you are in a panic, it's okay skip directly to the omg-teach-me-how-to-setup-and-demonstrate parts. 
 
@@ -75,7 +76,7 @@ Best wishes.
 
 # Things I wish I mastered
 	 
-If by any chance, you become responsible for every project in the lab like me. (It was indeed the best thing! I learned a lot from taking of all the stuff) The following are your best friends.
+If by any chance, you become responsible for every project in the lab like me. (It was indeed the best thing! I learned a lot from taking care of all the stuff) The following are your best friends.
 
 ## Git and GitHub
 	
@@ -485,26 +486,54 @@ Firstly, get everything from the previous section from the lab. If any of them a
 
 1. Absolutely don’t power Pi during this step, for your own and device safety. Attach E-ink display directly on the Pi, as shown in the figure.
 
-2. clone the E-ink display API repository using a command
+2. Open the terminal, run this command to open raspberry pi configuration menu.
 
-		git clone https://github.com/boonitis/e-paper-helper.git
+      sudo raspi-config
+   
+   Here you need to enable SPI by selecting **Inferfacing Options** => **P4 SPI** then hit **Yes**
 
-	Follow the instruction on Android Thing documentation, setup Android Things on your Raspberry Pi. During this process, take note of your device’s IP address. (This is important in the later step)
+3. Go to $HOME directory, clone the E-ink display API repository using a command.
+
+      cd ~
+		git clone https://github.com/boonitis/findme-client.git
+
+4. Get into the cloned directory. Run install_requirement.sh to install dependencies.
+
+      cd findme-client
+      bash install_requirement.sh
+
+5. Using sudo privilage, copy  findme.service to the systemd service directoriy.
+
+      sudo cp findme.service /etc/systemd/system/
+
+6. Copy findme-helper.sh to the $HOME directory.
+   
+      cp findme-helper.sh ~
+
+7. Run the following command to setup autostart service that will run app.py as a daemon when this Pi is booted.
+   
+      sudo systemctl daemon-reload
+      sudo systemctl start findme
+      sudo systemctl enable findme
+
+8. Confirm whether the daemon (service) is working by rebooting the device and run this command.
+
+      sudo systemctl status findme
     
-3. Android Application
+### Android Application
 
-	On your PC, download Android Studio and Android Debug Bridge (adb)
+1.	On your PC, download Android Studio and Android Debug Bridge (adb)
 	clone this repository using a command
 
 		git clone https://github.com/boonitis/find-me.git
         
 	And then open your Android Studio **File** -> **New** -> **Import Project** then choose the cloned project folder.
 
-4. Connect your smartphone to your PC using a USB cable.
+1. Connect your smartphone to your PC using a USB cable.
 
-5. In Android Studio, click the app module in the Project window then select Run -> Run and select [Your device name] as your deployment target.
+2. In Android Studio, click the app module in the Project window then select Run -> Run and select [Your device name] as your deployment target.
 
-6. After the installation process, look for the FindMe app on your smartphone. Try sending a message to the Raspberry Pi.
+3. After the installation process, look for the FindMe app on your smartphone. Try sending a message to the Raspberry Pi.
 
 ## Demonstration Guide
 

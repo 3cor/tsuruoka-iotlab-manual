@@ -319,7 +319,7 @@ At the current state, this app hardly does anything else so that concludes the p
 
 # IOT Kakashi  
 
-IOT Kakashi, also known as Kakashi or Smart Scarecrow, is an animal image recognition service that aims to help farmers prevent an animal invasion on theigit clone https://github.com/boonitis/gomi-application.gitr crops using an affordable and effective AI technology. 
+IOT Kakashi, also known as Kakashi or Smart Scarecrow, is an animal image recognition service that aims to help farmers prevent an animal invasion on their crops using an affordable and effective AI technology. 
 
 It is one of the most advanced research project featured in this manual so far. Utilizing knowledge of the Internet of Things, Machine Learning, Computer Vision, Edge Computing, and Electronic to create a Raspberry Pi-powered IoT device that can capture animal images and recognize animal types. 
 
